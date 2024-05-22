@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Scanner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <p2>Unlock your potential with our advanced Resume Scanner.</p2>
+        <h1>R-TECH Resume Scanner</h1>
+        <form id="resumeForm" enctype="multipart/form-data">
+            <label for="resumeFile">Upload Your Resume (PDF or DOCX):</label>
+            <input type="file" id="resumeFile" accept=".pdf,.docx" required>
+            <button type="submit">Scan Resume</button>
+        </form>
+        <div id="results" style="display: none;">
+            <h2>Scan Results</h2>
+            <p id="jobMatch"></p>
+            <p id="resumeQuality"></p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
