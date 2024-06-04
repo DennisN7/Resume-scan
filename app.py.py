@@ -16,7 +16,7 @@ nlp = spacy.load('en_core_web_sm')
 job_descriptions = {
     "Software Engineer": "Develop and maintain software applications...",
     "Data Scientist": "Analyze data to extract insights...",
-    "Project Manager": "Manage projects and coordinate teams..."
+    "Project Manager": "Manage projects and coordinate team projects..."
 }
 
 def extract_text_from_pdf(pdf_path):
